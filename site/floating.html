@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<title>Floating elements</title>
+	<meta charset="utf-8">
+	<style>
+	
+	div {
+		background: #bbdddd;
+		width:450px;
+	}
+	p{
+		box-sizing:border-box;
+		width: 150px;
+		height: 150px;
+		border: 1px solid #dddddd;
+		margin: 0px;
+	}
+	#p1 {
+		background-color: #A52A2A;
+		width:300px;
+		float: left;
+	}
+	#p2 {
+		background-color: #deb887;
+		height:300px;
+		float: right;
+	}
+	#p3 {
+		background-color: #5e9fa0;
+		height:300px;
+		float: left;
+	}
+	#p4 {
+		background-color: #ff7f50;
+		float: left;
+	}
+	#p5 {
+		background-color: #777777;
+		width:300px;
+		float:left;
+	}
+	section {
+		clear:left;
+	}
+	</style>
+</head>
+<body>
+
+<h1>Floating elements</h1>
+
+<div>
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<p id="p5"></p>
+	<section>Just a regular section.</section>
+</div>
+
+</body>
+</html>
