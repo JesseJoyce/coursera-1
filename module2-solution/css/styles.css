@@ -26,7 +26,7 @@ header {
 }
 
 .menu {
-	border: 2px solid #415455;
+	border: 1px solid #415455;
 	overflow: auto;
 	background: #dfdddf;
 	position: relative;
@@ -48,8 +48,8 @@ div.sup {
 	top:0;
 	right:0;
 	border: 0px;
-	border-left: 2px solid #415455;
-	border-bottom: 2px solid #415455;
+	border-left: 1px solid #415455;
+	border-bottom: 1px solid #415455;
 	//margin-top:1px;
 }
 
@@ -74,6 +74,9 @@ div.s3 {
 @media (min-width: 768px) and (max-width: 991px) {
 	.wrap {
 		width: 50%;
+	}
+	.lala {
+		width: 100%;
 	}
 }
 
