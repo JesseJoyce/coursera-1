@@ -32,8 +32,6 @@ header {
 	position: relative;
 	padding: 20px;
 	padding-top:40px;
-	//height: 100%;
-	//overflow-x: hidden; 
 }
 
 div.sup {
@@ -49,7 +47,6 @@ div.sup {
 	right:0;
 	border-left: 1px solid #415455;
 	border-bottom: 1px solid #415455;
-	//margin-top:1px;
 }
 
 div.s1 {
