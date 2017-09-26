@@ -30,7 +30,7 @@ header {
 	overflow: auto;
 	background: #dfdddf;
 	position: relative;
-	padding: 40px 20px 15px 20px;
+	padding: 40px 20px 10px 20px;
 }
 
 div.sup {
@@ -79,4 +79,27 @@ div.s3 {
 	.wrap {
 		width: 100%;
 	}
+}
+
+/*for index*/
+a, a:visited, a:active {
+	color:#445;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding: 20px;
+	display: inline-block;
+	border: 2px solid #445;
+	border-radius: 8px;
+	background-color: #eeeef3;
+} 
+
+a:hover {
+	color:#667;
+}
+
+.but-wrap {
+	text-align: center;
+	margin-top: 30px;
 }
