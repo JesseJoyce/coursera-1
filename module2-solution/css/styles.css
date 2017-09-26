@@ -30,10 +30,10 @@ header {
 	overflow: auto;
 	background: #dfdddf;
 	position: relative;
-	padding-top: 30px;
 	padding: 20px;
 	padding-top:40px;
-	height: 100%;
+	//height: 100%;
+	//overflow-x: hidden; 
 }
 
 div.sup {
@@ -47,7 +47,6 @@ div.sup {
 	width: 120px;
 	top:0;
 	right:0;
-	border: 0px;
 	border-left: 1px solid #415455;
 	border-bottom: 1px solid #415455;
 	//margin-top:1px;
@@ -58,7 +57,7 @@ div.s1 {
 }
 
 div.s2 {
-	background: #996666;
+	background: #885555;
 } 
 
 div.s3 {
