@@ -7,6 +7,6 @@
 	};
 
 	window.byeSpeaker = byeSpeaker;
-	var speakWord = "Goodbye";
+	var speakWord = "Good Bye";
 
 })(window);
