@@ -1,7 +1,6 @@
 // Event handling
 document.addEventListener("DOMContentLoaded",
-  function (event) {
-    
+  function (event) {  
     function sayHello (event) {
       console.log(event);
 
